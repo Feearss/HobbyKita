@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: #333;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  
+  .names {
+    margin-bottom: 30px;
+  }
+  
+  .name-button {
+    background: #ff6f61;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .name-button:hover {
+    transform: scale(1.1);
+    background-color: #e55b50;
+  }
+  
+  .hobbies {
+    margin-top: 30px;
+  }
+  
+  .hobby {
+    display: none;
+    animation: fadeIn 0.5s ease-in-out forwards;
+    border: 2px solid white;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
